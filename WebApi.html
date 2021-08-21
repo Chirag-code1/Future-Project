@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Web API</title>
+
+    </head>
+<body>
+    <div class="container">
+        <h2>API SAMPLE</h2>
+        <div >
+        <input class="form-control" id="username" type="text" placeholder="Github username..." />
+        <button class="btn btn-success pullUserData" id="submit">Pull User Data</button>
+        <p id="msg">*Refresh & search.</p>
+        </div>
+        
+        <div>
+            <div id="nameAndPic">
+                <div id="nameOnly">
+                    <h2 id="Name"></h2>
+                    <a id="userNameOfUser" href=""></a>
+                </div>
+                <div id="DpAndFollowerDiv">
+                    <div id="displayPic"></div>
+                    <div id="FollowerFollowingList"> 
+                        <h5>Followers:<label id="FollowerCount"></label></h5> 
+                        <h5>Followers:<label id="FollowingCount"></label></h5>
+                        <h5>Repository Count:<label id="RepoCount"></label></h5>
+                        <h5>Bio:<label id="bio"></label></h5>
+                    </div>
+                </div>
+
+            </div>
+            <div id="outputData">
+                <h4 id="RepoListAsHeading">Repository List:</h4>
+            </div>
+
+        </div>  
+    </div>
+
+
+      <script src="index.js"></script>
+
+
+</body>
+</html>
