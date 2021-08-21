@@ -1,0 +1,81 @@
+body{
+    display: grid;
+    justify-content: center;
+}
+.container{
+    display: block;
+    width: 100;
+    max-height: 100%;
+    padding: 3rem 3rem;
+    margin: 2rem 5rem 5rem 5rem;
+    background-color: rgb(253, 253, 253);
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.4);
+}
+
+.pullUserData{
+    margin: 8px 0 0 0;
+}
+#msg{
+    display:none;
+    color:red;
+    margin-left: 8px;
+}
+#nameAndPic{
+    display: grid;
+}
+#nameOnly{
+    display: flex;
+    justify-content: left;
+    margin-left: 2rem;
+}
+#userNameOfUser {
+   font-size: 18px;
+    margin-left: 2rem;
+    margin-top: 2.3rem;
+}
+.userAvtar{
+    border-radius: 50%; 
+    height: 25vh;
+    cursor:pointer;
+    margin-left: 2rem;
+
+}
+.userAvtar:hover{
+    box-shadow: 0 0.5rem 0.6rem rgba(0,0,0,0.4);
+}
+#DpAndFollowerDiv{
+    display:flex;
+}
+#displayPic{
+    flex:30%;
+    width: 100%;
+    place-items: center;
+    display:none;
+}
+#FollowerFollowingList{
+    flex:70%;
+    width: 100%;
+    display:none;
+}
+#FollowerCount, #FollowingCount, #RepoCount{
+    margin-left: 1rem;
+}
+#RepoListAsHeading{
+    display: none;
+}
+#outputData{
+    margin-top: 2rem;
+    display:inline-block;
+}
+.divRepo{
+    display: inline-block;
+    margin: 5px;
+    padding: 2px 7px;
+    border-radius: 3px;
+    background-color: orangered;
+    color:lavenderblush
+}
+.divRepo:hover{
+    background-color: orange;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.4);
+}
